@@ -1,13 +1,4 @@
-let temperatura = Number(prompt("inserisci temperatura"));
+let num = 2; console.log(`Tabellina del ${num}:`);
 
-if (temperatura < -10) {
-    console.log("copriti…ancora ti raffreddi");
-} else if (temperatura >= 30) {
-    console.log("lu mare, lu sole, lu ientu");
-} else if (temperatura < 30) {
-    console.log("mi dia una peroni sudata");
-} else if (temperatura < 0) {
-    console.log("non è tanto il freddo quanto l’umidità");
-} else if (temperatura < 20) {
-    console.log("non ci sono più le mezze stagioni");
-}
+  for(let i = 1; i <= 10; i++) 
+    { let risultato = num * i; console.log(`${num} x ${i} = ${risultato}`); }
