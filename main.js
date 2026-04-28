@@ -1,28 +1,13 @@
-let voto_numerico = Number(prompt("Inserisci il voto:")); 
+let temperatura = Number(prompt("inserisci temperatura"));
 
-if (voto_numerico < 18) 
-    { console.log("insufficiente"); 
-
-    } else if (voto_numerico >= 18 && voto_numerico < 21) 
-        { console.log("sufficiente"); 
-
-    } else if (voto_numerico >= 21 && voto_numerico < 24)
-
-    {
-        console.log("buono"); 
-
-     } else if (voto_numerico >= 24 && voto_numerico < 27)
-
-    {
-        console.log("distinto"); 
-     }  else if (voto_numerico >= 27 && voto_numerico < 29) 
-
-    {
-         console.log("ottimo"); 
-
-     } else if (voto_numerico = 30) 
-
-    {
-         console.log("eccellente"); 
-     }
-
+if (temperatura < -10) {
+    console.log("copriti…ancora ti raffreddi");
+} else if (temperatura >= 30) {
+    console.log("lu mare, lu sole, lu ientu");
+} else if (temperatura < 30) {
+    console.log("mi dia una peroni sudata");
+} else if (temperatura < 0) {
+    console.log("non è tanto il freddo quanto l’umidità");
+} else if (temperatura < 20) {
+    console.log("non ci sono più le mezze stagioni");
+}
